@@ -1,0 +1,88 @@
+/* pages/detail/detail.wxss */
+page{
+  background-color: #000;
+}
+
+.v-werpper{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.big-img{
+  width: 90%;
+  height: 460rpx;
+  margin: 10rpx auto;
+  border-radius: 100rpx;
+}
+
+.user-time{
+  margin:10rpx 50rpx;
+
+}
+
+.user-time image{
+  width: 64rpx;
+  height: 64rpx;
+  vertical-align: middle;
+}
+
+.user-time text{
+  font-size: 25rpx;
+  margin-left: 10rpx;
+}
+
+.conpany-name{
+  font-size: 38rpx;
+  font-weight: 500;
+  display: block;
+  margin: 10rpx auto;
+}
+
+.collection-img{
+  float: right;
+  margin-right: 50rpx;
+}
+
+.collection-img image{
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+}
+
+.line-werpper{
+  position: relative;
+}
+
+.line{
+  width: 90%;
+  height: 1rpx;
+  background-color: #eee;
+  position: absolute;
+  top: 45rpx;
+  left: 5%;
+  z-index: -1;
+}
+
+.content{
+  display: block;
+  width: 90%;
+  margin: 30rpx auto;
+}
+
+button{
+  height: 50rpx;
+  width: 140rpx;
+  font-size: 20rpx;
+  margin-right: 50rpx;
+  border: 1rpx solid #eee;
+}
+
+.music{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 220rpx;
+  left: 50%;
+  margin: -30rpx;
+}

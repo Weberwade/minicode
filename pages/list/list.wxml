@@ -1,0 +1,30 @@
+<!--pages/list/list.wxml-->
+<import src="./../template/list-template.wxml"/>
+<view>
+<swiper catchtap="werpperclick" indicator-dots indicator-color="#949590" indicator-active-color="white" autoplay interval="3000">
+  <swiper-item>
+    <image data-index="2" src='/images/nightCSC/03.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image data-index="4" src='/images/nightCSC/05.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image data-index="1" src='/images/nightCSC/02.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image data-index="3" src='/images/nightCSC/04.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image data-index="0" src='/images/nightCSC/01.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image data-index="5" src='/images/nightCSC/06.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image data-index="6" src='/images/nightCSC/07.jpg'></image>
+  </swiper-item>
+</swiper>
+<view wx:for='{{listArr}}' catchtap="toDetail" data-index="{{index}}">
+  <template is="listName" data="{{...item}}"/>
+</view>
+</view>

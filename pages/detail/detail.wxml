@@ -1,0 +1,22 @@
+<!--pages/detail/detail.wxml-->
+<view class="v-werpper">
+  <image class="big-img" src="{{isMusic?detailObj.music.coverImgUrl:detailObj.detail_img}}"></image>
+  <image catchtap="handMusic" class="music" src="{{isMusic?'/images/music/music-start.png':'/images/music/music-stop.png'}}"></image>
+    <view class="user-time">
+  <image src="{{detailObj.avatar}}"></image>
+  <text>{{detailObj.author}}</text>
+    <text>发布于</text>
+    <text>{{detailObj.date}}</text>
+  </view>
+  <text class="conpany-name">{{detailObj.title}}</text>
+  <view class="line-werpper">
+    <view class="collection-img">
+      <image catchtap="handlec" wx:if='{{!isCollection}}' src="/images/icon/collection-anti.png"></image>
+      <image catchtap="handlec" wx:if='{{isCollection}}' src="/images/icon/collection.png"></image>
+      <image catchtap="hanleShare" src="/images/icon/share.png"></image>
+    </view>
+    <view class="line"></view>
+  </view>
+  <text class="content">{{detailObj.detail_content}}</text>
+  <button open-type="share">转发此文</button>
+</view>

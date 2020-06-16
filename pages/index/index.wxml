@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class="index-werpper">
+<image class="tt" src="{{userInfo.avatarUrl}}"></image>
+<button bindgetuserinfo='handleGetUserInfo' style="display:{{isNow?'block':'none'}}" open-type='getUserInfo'>获取用户信息</button>
+<text class="content">Hello {{userInfo.nickName}} Let me in CSC!</text>
+<view catchtap="handleClick" class="go-oncklik">
+Care me!
+</view>
+</view>

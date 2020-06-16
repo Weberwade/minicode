@@ -1,0 +1,12 @@
+<!--pages/movies/movies.wxml-->
+<navigator url="/pages/movieDetail/movieDetail?index={{index}}" wx:for='{{moviesArr}}' wx:key='{{index}}'>
+<view class="movie-werpper">
+  <image class="movieimg" src="{{moviesArr[index].wepperimg}}"></image>
+  <view class="movie-dicoretion">
+    <text class="moname">{{moviesArr[index].tital}}</text>
+    <text class="modate">年份:{{moviesArr[index].data}}</text>
+    <text class="moman">导演：{{moviesArr[index].daoyan}}</text>
+  </view>
+  <text class="point">{{moviesArr[index].point}}</text>
+</view>
+</navigator>

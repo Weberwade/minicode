@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/movies/movies",
+    "pages/movieDetail/movieDetail",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "is Changsha City",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "#000",
+    "color": "#b4b4b4",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "新鲜事",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "娱乐&电影",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap85.json"
+}

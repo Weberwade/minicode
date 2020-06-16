@@ -1,0 +1,59 @@
+/* pages/template/list-template.wxss */
+.list-wepper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #545454;
+  border-radius: 50rpx;
+  width: 90%;
+  margin: 30rpx auto;
+  color: #b4b4b4;
+  box-shadow: 0rpx 0rpx 15rpx #545454;
+}
+.list-head {
+ padding: 10rpx 20rpx 10rpx 40rpx;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 25rpx;
+}
+.list-head image {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 10rpx;
+}
+.address-name {
+ font-size: 30rpx;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: 600;
+ display: block;
+ margin: 0 auto;
+}
+.imgSt {
+  width: 90%;
+  height: 460rpx;
+  border-radius: 30rpx;
+  margin: 10rpx auto;
+  display: block;
+}
+.list-content {
+  font-size: 30rpx;
+  font-family: serif;
+  text-indent: 64rpx;
+  display: block;
+  width: 90%;
+  margin: 20rpx auto;
+}
+.list-userData image{
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+  margin-right: 5rpx;
+}
+.list-userData text{
+  font-size: 20rpx;
+  margin-right: 10rpx;
+}
+.list-userData{
+  margin-left: 50rpx;
+  margin-bottom: 10rpx;
+}

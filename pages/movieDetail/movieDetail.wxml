@@ -1,0 +1,11 @@
+<!--pages/movieDetail/movieDetail.wxml-->
+<view class="movie-werpper">
+  <image class="movieimg" src="{{movieDetial.wepperimg}}"></image>
+  <text class="moname">{{movieDetial.tital}}</text>
+  <view class="moviepoint">
+    <text>评分： {{movieDetial.point}}</text>
+    <text>导演： {{movieDetial.daoyan}}</text>
+    <text>主演： {{movieDetial.yanyuan}}</text>
+  </view>
+  <!-- <button>我要观影</button> -->
+</view>

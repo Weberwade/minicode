@@ -1,0 +1,15 @@
+/* pages/list/list.wxss */
+@import '/pages/template/list-template.wxss';
+page{
+  background-color: #000;
+}
+swiper{
+  width: 90%;
+  height: 425rpx;
+  margin: 10rpx auto;
+}
+swiper image{
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
